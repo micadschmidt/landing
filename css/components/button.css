@@ -1,0 +1,31 @@
+.btn-purple {
+	background-color: #6D70DD;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+	font-family: 'Roboto' sans-serif;
+}
+.btn-purple:hover {
+  color: white;
+  font-weight: bolder;
+  background: rgb(150, 138, 150);
+}
+
+/*Whatsapp movil btn*/
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}

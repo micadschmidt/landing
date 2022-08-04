@@ -1,0 +1,79 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;1,600&display=swap');
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/container.css");
+
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.footer{
+  text-align: center;
+  padding: 60px;
+	background-color: grey;
+}
+.footer a {
+  font-size: 30px;
+  color: #6D70DD;
+  text-decoration: none;
+}
+
+.links li {
+  display: inline;
+	padding: 0px 20px;
+  list-style: none;
+	padding-left: 0px;
+	text-align: center;
+	font-size: 50px;;
+}
+
+.links a:hover{
+  color: black;
+}
+
+@media (max-width: 960px) {
+  /* Para una pantalla < 960px, se leerá este CSS */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Para una pantalla < 720px, se leerá este CSS */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Para una pantalla < 540px, se leerá este CSS */
+  .container {
+    width: 300px;
+  }
+}
+a {
+	text-decoration: none;
+	font-weight: bolder;
+}
